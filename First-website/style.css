@@ -9,7 +9,9 @@ button {
 }
 
 body {
-  background-image: linear-gradient(rgb(233, 233, 233), rgb(19, 50, 138));
+  background-image: url(OIP.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h4 {
@@ -48,4 +50,8 @@ h5 {
   color: rgb(77, 77, 38);
   font-size: 20px;
   text-shadow: 2px 2px 5px red;
+}
+.borderImg {
+  border: 2px dashed red;
+  border-radius: 10px;
 }
