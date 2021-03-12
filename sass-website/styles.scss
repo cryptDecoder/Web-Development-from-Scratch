@@ -1,0 +1,22 @@
+/*  define variables */
+$mainHeading: #666666;
+$secondHeading: #cc66ff;
+$contentData: #3f1a68;
+$bgcolor: #1ecbd1;
+
+// Mixin
+@shaping()
+// Styles
+
+body {
+    background-color: white;
+  }
+
+  section{
+    width: 780px;
+    margin: auto;
+    background-color: $bgcolor;
+    padding: 20px;
+    color: $mainHeading;
+    border-radius: 20px;
+  }

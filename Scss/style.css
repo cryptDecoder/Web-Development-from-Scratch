@@ -1,8 +1,17 @@
+/* Define standard variables and values for website */
+/* Use the variables */
 body {
-  background-color: cornflowerblue;
+  background-color: lightblue;
+  color: darkblue;
+  font-size: 28px;
 }
 
-h1 {
-  color: white;
+.circle {
+  background-color: yellowgreen;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -webkit-box-shadow: 1px 1px 1px;
+          box-shadow: 1px 1px 1px;
 }
 /*# sourceMappingURL=style.css.map */

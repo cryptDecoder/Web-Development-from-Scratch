@@ -1,0 +1,17 @@
+/*  define variables */
+@shaping ()
+// Styles
+
+body {
+  background-color: white;
+}
+
+section {
+  width: 780px;
+  margin: auto;
+  background-color: #1ecbd1;
+  padding: 20px;
+  color: #666666;
+  border-radius: 20px;
+}
+/*# sourceMappingURL=styles.css.map */
