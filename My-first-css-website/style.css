@@ -85,9 +85,118 @@ ul.topnav li.dropdownIcon {
     display: block;
     text-align: left;
   }
+  .col-6 {
+    width: 100%;
+    text-align: left;
+    margin: 0;
+  }
+  .div.leftside-col,
+  .div.rightSide-col {
+    margin: 15px;
+  }
+  input[type="text"] {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  .videoContainer iframe {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
 }
 
+/* section 1 */
 .container {
   width: 100%;
   margin: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+/* gradient section */
+
+#section-1-gradient {
+  background: #4eb9cc;
+  background: -webkit-linear-gradient(top left, #4eb9cc, #6043f0);
+  background: -moz-linear-gradient(top left, #4eb9cc, #6043f0);
+  background: linear-gradient(to bottom right, #4eb9cc, #6043f0);
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.row::after {
+  clear: both;
+  display: table;
+  content: "";
+}
+
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+h1.large {
+  color: white;
+  font-size: 32px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
+  line-height: 70px;
+}
+.inputBox[type="text"] {
+  font-size: 20px;
+  width: 400px;
+  min-width: 100px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+form h2 {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.leftside-col {
+  margin-left: 30%;
+}
+
+.rightSide-col {
+  margin-left: 15%;
 }
