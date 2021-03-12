@@ -244,3 +244,14 @@ p {
   margin: 5px;
   border-radius: 7px;
 }
+footer.footsy {
+  background-color: peru;
+  color: white;
+  font-size: 32px;
+  padding: 20px;
+}
+
+footer.footsy ul {
+  list-style: none;
+  text-align: left;
+}
