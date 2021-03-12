@@ -18,6 +18,7 @@ body {
   vertical-align: baseline;
   background: transparent;
   font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 
 /* #### Navbar #### */
@@ -85,10 +86,15 @@ ul.topnav li.dropdownIcon {
     display: block;
     text-align: left;
   }
-  .col-6 {
+  .col-6,
+  .col-4 {
     width: 100%;
     text-align: left;
     margin: 0;
+  }
+  .box {
+    padding: 5px;
+    display: block;
   }
   .div.leftside-col,
   .div.rightSide-col {
@@ -199,4 +205,42 @@ form h2 {
 
 .rightSide-col {
   margin-left: 15%;
+}
+
+h1.section2Header {
+  color: black;
+  font-size: 56px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
+  line-height: 70px;
+  text-align: center;
+}
+
+.box {
+  padding: 36px 24px 40px 24px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 0 0 1px rgb(0, 0, 0, 0.15), 0 2px 3px 0 rgb(0, 0, 0, 0.1);
+  margin: 24px;
+  border-radius: 7px;
+}
+
+label {
+  font-size: 35px;
+  text-align: center;
+  font-weight: 600;
+}
+p {
+  font-size: 20px;
+}
+.learnMore {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  background-color: blue;
+  padding: 15 px 16px;
+  display: block;
+  text-align: center;
+  margin: 5px;
+  border-radius: 7px;
 }
